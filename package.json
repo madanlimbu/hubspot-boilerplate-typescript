@@ -1,0 +1,17 @@
+{
+  "name": "hubspot-boilerplate-typescript",
+  "version": "1.0.0",
+  "description": "Hubspot lightweight boilerplate for cms theme & serverless functions with typescript.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "madanlimbu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madanlimbu/hubspot-boilerplate-typescript.git"
+  }
+}
