@@ -4,9 +4,19 @@
   "description": "Hubspot lightweight boilerplate for cms theme & serverless functions with typescript.",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-typescript": "^7.14.5",
+    "@hubspot/cms-cli": "^2.2.3",
+    "@hubspot/webpack-cms-plugins": "^3.0.6",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "webpack --watch --mode development"
   },
   "author": "madanlimbu",
   "license": "MIT",
