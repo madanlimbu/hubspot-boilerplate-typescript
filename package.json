@@ -16,7 +16,8 @@
     "webpack-cli": "^4.7.2"
   },
   "scripts": {
-    "watch": "webpack --watch --mode development"
+    "watch": "webpack --watch --mode development",
+    "hs-update": "hs upload hubspot-boilerplate-typescript hubspot-boilerplate-typescript"
   },
   "author": "madanlimbu",
   "license": "MIT",

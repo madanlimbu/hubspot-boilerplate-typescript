@@ -1,7 +1,6 @@
 
-// Uncomment if you have full hubspot setup locally to auto-sync local changes.
-// const THEME_NAME = 'hubspot-boilerplate-typescript';
-// const HubSpotAutoUploadPlugin = require('@hubspot/webpack-cms-plugins/HubSpotAutoUploadPlugin')
+const THEME_NAME = 'hubspot-boilerplate-typescript';
+const HubSpotAutoUploadPlugin = require('@hubspot/webpack-cms-plugins/HubSpotAutoUploadPlugin')
 const CopyPlugin = require('copy-webpack-plugin');
 const path = require("path");
 
@@ -27,12 +26,12 @@ const serverlessFunctionConfig = ({ account, autoupload }) => ({
         }
     },
     plugins: [
-        // new HubSpotAutoUploadPlugin({
-        //     autoupload,
-        //     account,
-        //     src: 'dist',
-        //     dest: THEME_NAME,
-        // }),
+        new HubSpotAutoUploadPlugin({
+            autoupload,
+            account,
+            src: 'dist',
+            dest: THEME_NAME,
+        }),
         new CopyPlugin({
             patterns: [
                 { from: "src/app.functions/serverless.json", to: "app.functions/serverless.json" },
