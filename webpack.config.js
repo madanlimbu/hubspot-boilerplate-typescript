@@ -27,8 +27,8 @@ const serverlessFunctionConfig = ({ account, autoupload }) => ({
     },
     plugins: [
         new HubSpotAutoUploadPlugin({
-            autoupload,
             account,
+            autoupload,
             src: 'dist',
             dest: THEME_NAME,
         }),
