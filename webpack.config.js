@@ -35,6 +35,8 @@ const serverlessFunctionConfig = ({ account, autoupload }) => ({
         new CopyPlugin({
             patterns: [
                 { from: "src/app.functions/serverless.json", to: "app.functions/serverless.json" },
+                { from: "src/theme.json", to: "" },
+                { from: "src/fields.json", to: "" },
             ]
         }),
     ],

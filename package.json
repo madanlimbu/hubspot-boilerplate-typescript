@@ -17,7 +17,7 @@
   },
   "scripts": {
     "watch": "webpack --watch --mode development",
-    "hs-update": "hs upload hubspot-boilerplate-typescript hubspot-boilerplate-typescript"
+    "hs-update": "hs upload dist hubspot-boilerplate-typescript"
   },
   "author": "madanlimbu",
   "license": "MIT",

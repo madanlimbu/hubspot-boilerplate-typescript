@@ -15,7 +15,7 @@ export const main = (context: RequestContext, sendResponse: SendResponse) => {
     // $HUBSPOT_HOST/_hcms/api/test to test.
     sendResponse({
         body: {
-            hubspot: 'Serverless function with typescript'
+            hubspot: 'Serverless function with typescript.'
         },
         statusCode: 200
     });
