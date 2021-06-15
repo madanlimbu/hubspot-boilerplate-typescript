@@ -12,6 +12,7 @@
     "@hubspot/webpack-cms-plugins": "^3.0.6",
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "^9.0.0",
+    "glob": "^7.1.7",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2"
   },
